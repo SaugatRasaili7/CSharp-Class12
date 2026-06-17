@@ -12,3 +12,4 @@ C:\Users\class12\Documents\CsharpTutorial\Learningcsharp\obj\Debug\net10.0\refin
 C:\Users\class12\Documents\CsharpTutorial\Learningcsharp\obj\Debug\net10.0\Learningcsharp.pdb
 C:\Users\class12\Documents\CsharpTutorial\Learningcsharp\obj\Debug\net10.0\Learningcsharp.genruntimeconfig.cache
 C:\Users\class12\Documents\CsharpTutorial\Learningcsharp\obj\Debug\net10.0\ref\Learningcsharp.dll
+C:\Users\class12\Documents\CsharpTutorial\Learningcsharp\obj\Debug\net10.0\Learningcsharp.sourcelink.json
