@@ -21,8 +21,19 @@ public static void Main(string[] args)
 
          //   Program5 p5 = new Program5();
          //   p5.Swap();
-            Program6 p6 = new Program6();
-            p6.Swapping();
+
+
+         // Program6 p6 = new Program6();
+         // p6.Swapping();
+          
+         //  Program7 p7 = new Program7();
+         //  p7.Perimeter();
+
+         Program8 p8 = new Program8();
+         p8.Interest();
+
+
+
 
       /*  Console.WriteLine("Enter Your Name :");
         string Name = Convert.ToString(Console.ReadLine());
