@@ -29,8 +29,16 @@ public static void Main(string[] args)
          //  Program7 p7 = new Program7();
          //  p7.Perimeter();
 
-         Program8 p8 = new Program8();
-         p8.Interest();
+         // Program8 p8 = new Program8();
+         // p8.Interest();
+
+         
+         // Program9 p9 = new Program9();
+         // p9.Interest();
+
+         
+         Program10 p10 = new Program10();
+         p10.Temperature();
 
 
 
