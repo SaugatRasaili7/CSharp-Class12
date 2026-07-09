@@ -7,11 +7,11 @@ public class Program10
         Console.WriteLine("---- Program to convert temperature given in celsius to fahrenheit ----");
 
         Console.WriteLine("Enter the temperature in celsius to convert it into fahrenheit :");
-        double Celsius = Convert.ToDouble(Console.ReadLine());
+        double celsius = Convert.ToDouble(Console.ReadLine());
 
-        double Fahrenheit = ((9*Celsius)/5)+ 32;
+        double fahrenheit = ((9*celsius)/5)+ 32;
 
-        Console.WriteLine($"The Temperature given in Celsius {Celsius} is {Fahrenheit} in Fahrenheit");
+        Console.WriteLine($"The Temperature given in Celsius {celsius} is {fahrenheit} in Fahrenheit");
         
             }
 }

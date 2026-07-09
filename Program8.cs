@@ -9,17 +9,17 @@ public class Program8
 
 
         Console.WriteLine("Enter the principal : ");
-        double Principal = Convert.ToDouble(Console.ReadLine());
+        double principal = Convert.ToDouble(Console.ReadLine());
 
 
         Console.WriteLine("Enter the Rate : ");
-        double Rate = Convert.ToDouble(Console.ReadLine());
+        double rate = Convert.ToDouble(Console.ReadLine());
         
         Console.WriteLine("Enter the Time in years: ");
-        double Time = Convert.ToDouble(Console.ReadLine());
+        double time = Convert.ToDouble(Console.ReadLine());
         
 
-        double SI = (Principal * Time * Rate )/100;
+        double SI = (principal * time * rate )/100;
 
         Console.WriteLine($"The Calculated Simple Interest is : {SI}");
     }

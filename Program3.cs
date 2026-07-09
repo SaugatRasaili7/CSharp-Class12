@@ -15,11 +15,11 @@ public class Program3
     Console.WriteLine("Enter the Marks of Mathematics:");
     double mathematics = Convert.ToDouble(Console.ReadLine());
 
-      double totalMarks = physics + Chemistry + Mathematics;
+      double totalMarks = physics + chemistry + mathematics;
 
 
 
-        Console.WriteLine($"The Total of Physics , Chemistry and Mathematics is : {TotalMarks}");
+        Console.WriteLine($"The Total of Physics , Chemistry and Mathematics is : {totalMarks}");
     }
 
 }

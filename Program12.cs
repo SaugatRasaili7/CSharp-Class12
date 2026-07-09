@@ -8,25 +8,25 @@ public class Program12
 
         
         Console.WriteLine(" Enter the Name of the Employee:");
-        string EmployeeName = Convert.ToString(Console.ReadLine());
+        string employeeName = Convert.ToString(Console.ReadLine());
 
 
         
         Console.WriteLine(" Enter the Salary of the Employee:");
-        double EmployeeSalary = Convert.ToDouble(Console.ReadLine());
+        double employeeSalary = Convert.ToDouble(Console.ReadLine());
 
           Console.WriteLine(" Enter the Bonus of the Employee:");
-        double EmployeeBonus = Convert.ToDouble(Console.ReadLine());
+        double employeeBonus = Convert.ToDouble(Console.ReadLine());
 
 
           Console.WriteLine(" Enter the tax that is needed to be paid by Employee:");
-        double EmployeeTax = Convert.ToDouble(Console.ReadLine());
+        double employeeTax = Convert.ToDouble(Console.ReadLine());
 
-        double TaxAmount = EmployeeSalary - ((EmployeeTax / 100) * EmployeeSalary);
+        double taxAmount = employeeSalary - ((employeeTax / 100) * employeeSalary);
 
-        double TotalSalary = TaxAmount + EmployeeBonus;
+        double totalSalary = taxAmount + employeeBonus;
 
-        Console.WriteLine($" The total salary of Employee {EmployeeName} is {TotalSalary}");
+        Console.WriteLine($" The total salary of Employee {employeeName} is {totalSalary}");
 
 
     }

@@ -7,43 +7,43 @@ public class Program11
         Console.WriteLine("--- Program to calculate total bill of three products ---");
 
         Console.WriteLine(" Enter the price of first product :");
-        int Price1 = Convert.ToInt32(Console.ReadLine());
+        int price1 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine(" Enter the Quantity of the first product :");
-        int Quantity1 = Convert.ToInt32(Console.ReadLine());
+        int quantity1 = Convert.ToInt32(Console.ReadLine());
 
         // Total of first product 
 
-        int Total1 = Price1 * Quantity1;
+        int total1 = price1 * quantity1;
 
 
         Console.WriteLine(" Enter the price of second product :");
-        int Price2 = Convert.ToInt32(Console.ReadLine());
+        int price2 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine(" Enter the Quantity of the second product :");
-        int Quantity2 = Convert.ToInt32(Console.ReadLine());
+        int quantity2 = Convert.ToInt32(Console.ReadLine());
 
          // Total of second product 
 
-           int Total2 = Price2 * Quantity2;
+           int total2 = price2 * quantity2;
 
          
         Console.WriteLine(" Enter the price of third product :");
-        int Price3 = Convert.ToInt32(Console.ReadLine());
+        int price3 = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine(" Enter the Quantity of the third product :");
-        int Quantity3 = Convert.ToInt32(Console.ReadLine());
+        int quantity3 = Convert.ToInt32(Console.ReadLine());
 
         
          // Total of third product 
 
-           int Total3 = Price3 * Quantity3;
+           int total3 = price3 * quantity3;
 
 
 
-           int TotalBill = Total1 + Total2 + Total3;
+           int totalBill = total1 + total2 + total3;
 
-           Console.WriteLine($"The Total bill of three products is : {TotalBill}");
+           Console.WriteLine($"The Total bill of three products is : {totalBill}");
 
     }
 }
