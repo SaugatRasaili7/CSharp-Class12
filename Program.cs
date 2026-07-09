@@ -37,8 +37,16 @@ public static void Main(string[] args)
          // p9.Interest();
 
          
-         Program10 p10 = new Program10();
-         p10.Temperature();
+         // Program10 p10 = new Program10();
+         // p10.Temperature();
+
+         
+         // Program11 p11 = new Program11();
+         // p11.Bill();
+
+         
+         Program12 p12 = new Program12();
+         p12.Employee();
 
 
 
