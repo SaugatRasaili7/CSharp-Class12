@@ -62,6 +62,7 @@ public static void Main(string[] args)
          //  Program16 p16 = new Program16();
          // p16.Volume();
 
+<<<<<<< HEAD
          //  Program17 p17 = new Program17();
          // p17.electricityBill();
 
@@ -78,6 +79,10 @@ public static void Main(string[] args)
            Program21 p21 = new Program21();
          p21.smaller();
          
+=======
+          Program17 p17 = new Program17();
+         p17.electricityBill();
+>>>>>>> fbbc71a512fb404337210158d641cb98cda75886
 
 
 
