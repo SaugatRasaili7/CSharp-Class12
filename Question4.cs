@@ -1,6 +1,6 @@
 //Write a program to find the smaller of two numbers.
 using System;
-public class Program21
+public class Question4
 {
     public void smaller()
     {

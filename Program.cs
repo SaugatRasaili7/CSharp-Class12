@@ -62,27 +62,27 @@ public static void Main(string[] args)
          //  Program16 p16 = new Program16();
          // p16.Volume();
 
-<<<<<<< HEAD
-         //  Program17 p17 = new Program17();
-         // p17.electricityBill();
 
-         //  Program18 p18 = new Program18();
-         // p18.decision();
+          //  Program17 p17 = new Program17();
+          // p17.electricityBill();
 
-         //    Program19 p19 = new Program19();
-         // p19.checker();
 
-         //   Program20 p20 = new Program20();
-         // p20.larger();
+
+
+      // ---- Decision Making Statements ----
+          //  Question1 q1 = new Question1();
+          // q1.decision();
+
+          //    Question2 q2 = new Question2();
+          // q2.checker();
+
+         //   Question3 q3 = new Question3();
+          // q3.larger();
 
          
-           Program21 p21 = new Program21();
-         p21.smaller();
-         
-=======
-          Program17 p17 = new Program17();
-         p17.electricityBill();
->>>>>>> fbbc71a512fb404337210158d641cb98cda75886
+        //    Question4 q4 = new Question4();
+        //  q4.smaller();
+  
 
 
 

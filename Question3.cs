@@ -1,6 +1,6 @@
 //Input two integers and display the larger one.
 using System;
-public class Program20{
+public class Question3{
 
     public void larger()
     {

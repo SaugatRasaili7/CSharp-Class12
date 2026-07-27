@@ -1,6 +1,6 @@
 //Write a C# program that checks whether a given integer is even or odd.
 using System;
-public class Program19
+public class Question2
 {
     public void checker()
     {

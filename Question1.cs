@@ -6,7 +6,7 @@
 // * Zero
 
 using System;
-public class Program18
+public class Question1
 {
     public void decision()
     {
