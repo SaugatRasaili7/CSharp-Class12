@@ -45,8 +45,39 @@ public static void Main(string[] args)
          // p11.Bill();
 
          
-         Program12 p12 = new Program12();
-         p12.Employee();
+         // Program12 p12 = new Program12();
+         // p12.Employee();
+
+         // Program13 p13 = new Program13();
+         // p13.Information();
+
+         //  Program14 p14 = new Program14();
+         // p14.CompoundInterest();
+
+         
+         //  Program15 p15 = new Program15();
+         // p15.Converter();
+
+         
+         //  Program16 p16 = new Program16();
+         // p16.Volume();
+
+         //  Program17 p17 = new Program17();
+         // p17.electricityBill();
+
+         //  Program18 p18 = new Program18();
+         // p18.decision();
+
+         //    Program19 p19 = new Program19();
+         // p19.checker();
+
+         //   Program20 p20 = new Program20();
+         // p20.larger();
+
+         
+           Program21 p21 = new Program21();
+         p21.smaller();
+         
 
 
 

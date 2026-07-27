@@ -9,19 +9,24 @@ public class Program13
 
             
         Console.WriteLine(" Enter the Name of the Student:");
-        string StudentName = Convert.ToString(Console.ReadLine());
+        string studentName = Convert.ToString(Console.ReadLine());
 
         Console.WriteLine(" Enter the RollNo of the Student:");
-        int RollNo = Convert.ToInt32(Console.ReadLine());
+        int rollNo = Convert.ToInt32(Console.ReadLine());
 
          Console.WriteLine(" Enter the Faculty of the Student:");
-        string Faculty = Convert.ToString(Console.ReadLine());
+        string faculty = Convert.ToString(Console.ReadLine());
 
         Console.WriteLine("Enter the Grade Point Average(GPA) of the Student");
         double GPA = Convert.ToDouble(Console.ReadLine());
-        
-        Console.WriteLine("----- The Details of the Student is given Below -----");
-        
+    
+
+        Console.WriteLine("===== Student Report =====");
+        Console.WriteLine($"Name     : {studentName}");
+        Console.WriteLine($"Roll No  : {rollNo}");
+        Console.WriteLine($"Faculty  : {faculty}");
+        Console.WriteLine($"GPA      : {GPA}");
+        Console.WriteLine("==========================");
 
 
 

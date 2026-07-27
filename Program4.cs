@@ -6,11 +6,11 @@
     {
      
      Console.WriteLine("Enter the Raduis of circle :");
-     double Radius = Convert.ToDouble(Console.ReadLine());
+     double radius = Convert.ToDouble(Console.ReadLine());
 
-     double Area = 3.14 * Radius * Radius;
+     double area = 3.14 * radius * radius;
 
-     Console.WriteLine($"The Area of Circle is : {Area}");
+     Console.WriteLine($"The Area of Circle is : {area}");
      
 
     }

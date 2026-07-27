@@ -7,15 +7,15 @@ public class Program7
     public void Perimeter()
     {
         Console.WriteLine("Enter the Length of the Rectangle :");
-        double Length = Convert.ToDouble(Console.ReadLine());
+        double length = Convert.ToDouble(Console.ReadLine());
 
 
         Console.WriteLine("Enter the Breadth of the Rectangle :");
-        double Breadth = Convert.ToDouble(Console.ReadLine());
+        double breadth = Convert.ToDouble(Console.ReadLine());
 
-        double Perimeter = 2*(Length + Breadth);
+        double perimeter = 2*(length + breadth);
 
-        Console.WriteLine($"The perimeter of the Rectangle is : {Perimeter}");
+        Console.WriteLine($"The perimeter of the Rectangle is : {perimeter}");
 
         
         
