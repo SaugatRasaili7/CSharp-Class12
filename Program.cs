@@ -82,6 +82,10 @@ public static void Main(string[] args)
          
         //    Question4 q4 = new Question4();
         //  q4.smaller();
+
+        
+           Question5 q5 = new Question5();
+         q5.employee();
   
 
 
