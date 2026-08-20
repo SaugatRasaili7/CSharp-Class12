@@ -84,8 +84,13 @@ public static void Main(string[] args)
         //  q4.smaller();
 
         
-           Question5 q5 = new Question5();
-         q5.employee();
+        //    Question5 q5 = new Question5();
+        //  q5.employee();
+
+        
+           Question6 q6 = new Question6();
+         q6.student();
+  
   
 
 
