@@ -88,8 +88,14 @@ public static void Main(string[] args)
         //  q5.employee();
 
         
-           Question6 q6 = new Question6();
-         q6.student();
+        //    Question6 q6 = new Question6();
+        //  q6.student();
+
+          Method3 m3 = new Method3();
+          Console.WriteLine(m3.GetWelcomeMessage());
+          
+          
+
   
   
 
