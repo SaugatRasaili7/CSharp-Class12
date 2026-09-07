@@ -91,9 +91,11 @@ public static void Main(string[] args)
         //    Question6 q6 = new Question6();
         //  q6.student();
 
-          Method3 m3 = new Method3();
-          Console.WriteLine(m3.GetWelcomeMessage());
+        //   Method3 m3 = new Method3();
+        //   Console.WriteLine(m3.GetWelcomeMessage());
           
+          Array1 ar = new Array1();
+          ar.OneArray();
           
 
   
