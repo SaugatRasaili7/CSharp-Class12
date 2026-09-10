@@ -6,26 +6,26 @@ public class Array2
         int[,] num = new int[2,3];
 
         Console.WriteLine("Enter the numbers:");
-        for(int i=0; i<3; i++){
-            for(int j=0; j<4; j++)
+        for(int i=0; i<=1; i++){
+            for(int j=0; j<=2; j++)
             {
-                Console.WriteLine($"Enter the value of {i} element");
+                Console.WriteLine($"Enter the value of {i}{j} element");
                 num[i,j] = Convert.ToInt32(Console.ReadLine());
 
             }
 
-            Console.WriteLine();
+            Console.WriteLine("");
         }
 
 
-        for(int i=0; i<3; i++){
-            for(int j=0; j<4; j++)
+        for(int i=0; i<=1; i++){
+            for(int j=0; j<=2; j++)
             {
-                Console.WriteLine(num[i,j]);
+                Console.Write(num[i,j]+ " ");
 
             }
 
-            Console.WriteLine();
+            Console.WriteLine("");
         }
 
 

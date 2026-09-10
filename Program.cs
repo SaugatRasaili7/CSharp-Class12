@@ -94,9 +94,22 @@ public static void Main(string[] args)
         //   Method3 m3 = new Method3();
         //   Console.WriteLine(m3.GetWelcomeMessage());
           
-          Array1 ar = new Array1();
-          ar.OneArray();
+        //   Array1 ar = new Array1();
+        //   ar.OneArray();
+
+        // Array3 ar3 = new Array3();
+        // ar3.StringArray();
           
+        //   Array4 ar4 = new  Array4();
+        //   ar4.DecimalArray();
+
+           
+          Array2 ar2 = new  Array2();
+          ar2.TwoArray();
+
+       
+         
+
 
   
   
