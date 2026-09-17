@@ -1,26 +1,33 @@
 using System;
-public class Array3
+public class Array2
 {
     public void StringArray()
     {
-        
-        string[] name = new string[5];
-        Console.WriteLine("Enter Five Name:");
+        string[,] num = new string[2,3];
 
-        for(int i =0; i<name.Length; i++)
-        {
-            Console.WriteLine($"Enter the {i+1} name: ");
-            name[i] = Convert.ToString(Console.ReadLine());
+        Console.WriteLine("Enter the numbers:");
+        for(int i=0; i<=1; i++){
+            for(int j=0; j<=2; j++)
+            {
+                Console.WriteLine($"Enter the value of {i}{j} element");
+                num[i,j] = Convert.ToString(Console.ReadLine());
 
+            }
+
+            Console.WriteLine("");
         }
 
-        Console.WriteLine("The Entered names are :");
 
-          for(int i =0; i<name.Length; i++)
-        {
-            Console.WriteLine($"The name {i+1}: {name[i]}");
-            
+        for(int i=0; i<=1; i++){
+            for(int j=0; j<=2; j++)
+            {
+                Console.Write(num[i,j]+ " ");
+
+            }
+
+            Console.WriteLine("");
         }
+
 
     }
 }

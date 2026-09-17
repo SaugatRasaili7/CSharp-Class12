@@ -104,8 +104,22 @@ public static void Main(string[] args)
         //   ar4.DecimalArray();
 
            
-          Array2 ar2 = new  Array2();
-          ar2.TwoArray();
+        //   Array2 ar2 = new  Array2();
+        //   ar2.TwoArray();
+
+        // Array6 ar6= new  Array6();
+        //   ar6.ThreeDimension();
+
+        //   Array7 ar7= new  Array7();
+        //   ar7.ThreeArray();
+
+        
+          Array8 ar8= new  Array8();
+          ar8.ArrayDimension();
+
+        
+
+
 
        
          
