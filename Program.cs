@@ -114,8 +114,20 @@ public static void Main(string[] args)
         //   ar7.ThreeArray();
 
         
-          Array8 ar8= new  Array8();
-          ar8.ArrayDimension();
+        //   Array8 ar8= new  Array8();
+        //   ar8.ArrayDimension();
+
+        //   JaggedArray1 jar1= new  JaggedArray1();
+        //   jar1.JaggedOne();
+
+        // JaggedArray2 jar2= new  JaggedArray2();
+        //   jar2.JaggedTwo();
+
+        
+        JaggedArray3 jar3= new  JaggedArray3();
+          jar3.JaggedThree();
+
+
 
         
 

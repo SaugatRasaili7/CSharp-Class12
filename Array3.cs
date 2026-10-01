@@ -1,5 +1,5 @@
 using System;
-public class Array2
+public class Array3
 {
     public void StringArray()
     {
